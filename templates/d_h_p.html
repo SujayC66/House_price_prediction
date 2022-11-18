@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <h1 style="color:burlywood;">HOUSE PRICE PREDICTION</h1>
+    <img src="https://img.freepik.com/premium-vector/home-icon-house-symbol-simple-vector-design-logo_231786-5048.jpg?w=2000" height=250 alt="relative url"></img>
+    <form action="/house_price_prediction" method="POST">
+        AREA:
+        <input type="text" name="area"><br><br>
+        LATITTUDE:
+        <input type="text" name="latitude"><br><br>
+        LONGITUDE:
+        <input type="text" name="longitude"><br><br>
+        BEDROOMS:
+        <input type="text" name="Bedrooms"><br><br>
+        BATHROOOMS:
+        <input type="text" name="Bathrooms"><br><br>
+        BALCONY:
+        <input type="text" name="Balcony"><br><br>
+        STATUS:
+        <input type="text" name="Status"><br><br>
+        NEWOROLD
+        <input type="text" name="neworold"><br><br>
+        FURNISHED STATUS:
+        <input type="text" name="Furnished_status"><br><br>
+        BUILDING TYPE:
+        <input type="text" name="type_of_building"><br><br>
+        PRICE SQFEET:
+        <input type="text" name="Price_sqft"><br><br>
+        CITY NAME:
+        <select name="city_name">
+            <option value="Faridabad">Faridabad</option>
+            <option value="Ghaziabad">Ghaziabad</option>
+            <option value="Greater Noida">Greater Noida</option>
+            <option value="Gurgaon">Gurgaon</option>
+            <option value="New Delhi - Dwarka">New Delhi - Dwarka</option>
+            <option value="New Delhi - East">New Delhi - East</option>
+            <option value="New Delhi - South">New Delhi - South</option>
+            <option value="New Delhi - West">New Delhi - West</option>
+            <option value="Noida">Noida</option>
+            <option value="uncommon">uncommon</option>
+        </select>
+
+
+        <input type="submit">
+
+
+
+        
+
+    </form>
+
+    {{result}}
+
+    
+</body>
+</html>
